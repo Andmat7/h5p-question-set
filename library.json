@@ -1,5 +1,5 @@
 {
-  "title": "Question Set",
+  "title": "Question Set IDO",
   "description": "Put together a set of different questions that has to be solved. (Quiz)",
   "contentType": "question",
   "majorVersion": 1,
@@ -10,7 +10,7 @@
   ],
   "runnable": 1,
   "fullscreen": 0,
-  "machineName": "H5P.QuestionSet",
+  "machineName": "H5P.QuestionSetIDO",
   "author": "Joubel",
   "coreApi": {
     "majorVersion": 1,
