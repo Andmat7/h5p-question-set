@@ -123,7 +123,7 @@
       "options": [
         "H5P.MultiChoiceIDO 1.13",
         "H5P.DragQuestion 1.13",
-        "H5P.Blanks 1.11",
+        "H5P.BlanksIDO 1.11",
         "H5P.MarkTheWordsIDO 1.9",
         "H5P.DragTextIDO 1.8",
         "H5P.TrueFalseIDO 1.5",
