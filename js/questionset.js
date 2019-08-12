@@ -724,7 +724,7 @@ H5P.QuestionSetIDO = function (options, contentId, contentData) {
     var finals = self.getScore();
     var totals = self.getMaxScore();
 
-    var scoreString = H5P.Question.determineOverallFeedback(params.endGame.overallFeedback, finals / totals).replace('@score', finals).replace('@total', totals);
+    var scoreString = H5P.QuestionIDO.determineOverallFeedback(params.endGame.overallFeedback, finals / totals).replace('@score', finals).replace('@total', totals);
     var success = ((100 * finals / totals) >= params.passPercentage);
 
     /**
