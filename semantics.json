@@ -82,6 +82,10 @@
       {
         "value": "dots",
         "label": "Dots"
+      },
+      {
+        "value": "bar",
+        "label": "Bar"
       }
     ],
     "default": "dots"
