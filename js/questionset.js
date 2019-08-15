@@ -79,13 +79,13 @@ H5P.QuestionSetIDO = function (options, contentId, contentData) {
           '  <div class="buttons"><a href="#" class="qs-startbutton h5p-joubelui-button h5p-button"><%= introPage.startButtonText %></a></div>' +
           '</div>' +
           '<% } %>' +
-          '<% if (progressType == "bar") { %>' +
-          '<div class="bar-container">' +
-          '  <div class="progress-bar-answers"></div>' +
-          '</div>' +
-          '<% } %>' +
           '<div tabindex="-1" class="qs-progress-announcer"></div>' +
           '<div class="questionset<% if (introPage.showIntroPage) { %> hidden<% } %>">' +
+          '      <% if (progressType == "bar") { %>' +
+          '        <div class="bar-container">' +
+          '        <div class="progress-bar-answers"></div>' +
+          '        </div>' +
+          '      <% } %>' +
           '  <% for (var i=0; i<questions.length; i++) { %>' +
           '    <div class="question-container"></div>' +
           '  <% } %>' +
